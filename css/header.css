@@ -1,0 +1,9 @@
+.header {
+    background:
+       linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)  ),
+       url('https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
