@@ -1,0 +1,29 @@
+.product-card {
+    border: 1px solid var(--text-color);
+    padding: 5px;
+}
+
+.product-card__buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 640px) {
+    .main-products__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 810px) {
+    .main-products__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
+}
+
+@media (min-width: 980px) {
+    .main-products__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }    
+}

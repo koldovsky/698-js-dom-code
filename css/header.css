@@ -1,9 +1,52 @@
-.header {
-    background:
-       linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)  ),
-       url('https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+.header-nav {
+    background-color: var(--background-color);
+}
+
+.header-nav__menu {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+@media (min-width: 500px) {
+
+    .header-nav > .container {
+        display: flex;
+    }
+
+    .header-nav__menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+}
+
+h1,
+.header-nav__logo {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.header-nav__menu a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header-nav__menu a:hover {
+    text-decoration: underline;
+}
+
+.header-banner {
+    background-image: url(../img/baby-yoda.svg);
+    min-height: 600px;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
