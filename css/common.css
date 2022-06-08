@@ -11,6 +11,7 @@ selector {
     font-family: 'DotGothic16', sans-serif;
     --text-color: #1f4758;
     --background-color: rgb(50, 206, 211);
+    scroll-behavior: smooth;
 }
 
 * {
