@@ -1,0 +1,15 @@
+.main-products__carousel {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-products__carousel > div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-products__carousel img {
+    width: 100%;
+}
